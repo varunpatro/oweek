@@ -1,0 +1,4 @@
+<%= form_tag('/houses/attack') %>
+<%= select_tag "email", options_from_collection_for_select(@houses, "id", "email") %>
+<%= number_field_tag "attack_points", nil, min: 1, max: @point.attack, required: true, placeholder: "Points", style: "width: 50px;" %>
+<%= submit_tag("Attack!") %>

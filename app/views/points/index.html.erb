@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= current_house.email %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Health</th>
+      <th>Attack</th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><%= @point.health %></td>
+        <td><%= @point.attack %></td>
+      </tr>
+  </tbody>
+</table>
+
+<h2>Attack House:</h2>
+<%= render 'attack' %>

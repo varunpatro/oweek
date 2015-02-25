@@ -65,12 +65,12 @@ class TasksController < ApplicationController
 
   def task_req
 	respond_to do |format|
-	  @tasks = Task.where(id: params[:id]);
+	  @tasks = Task.where(id: params[:location]);
 	  if (@tasks.present?)
 	  	@task = @tasks.first
 		msg = { taskLoc: @task.taskLoc, taskDesc: @task.taskDesc }
 	  else 
-	  	msg = { taskLoc: "Invalid QR Code", taskDesc: "" }
+	  	msg = { taskLoc: "Invalid QR Code", taskDesc: "Please try again" }
 	  end
 	  format.json  { render json: msg }
 	end

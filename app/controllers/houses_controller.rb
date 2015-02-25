@@ -16,14 +16,15 @@ class HousesController < ApplicationController
   	@house.point.attack -= @attack_points
 	@house.point.save
 
-	redirect_to houses_path
+	redirect_to new_house_session_path
 
   end
 
+  def all
+  	@houses = House.all
+  end
+
   def index
-  	if (!house_signed_in?) 
-  		redirect_to new_house_session_path
-  	end
     @point = current_house.point
     @houses = House.all
   end

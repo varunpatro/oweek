@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'tasks/request' => 'tasks#task_req'
+  resources :tasks
+
+
+
+  get 'houses/all' => 'houses#all'
   resources :points
 
   devise_for :houses
@@ -8,6 +14,8 @@ Rails.application.routes.draw do
   root 'points#index'
 
   post 'houses/attack' => 'houses#attack'
+
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

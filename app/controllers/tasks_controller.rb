@@ -65,7 +65,7 @@ class TasksController < ApplicationController
 
   def task_req
 	respond_to do |format|
-	  msg = { status: "ok", message: "Success!", html: "<b>...</b>" }
+	  msg = { taskLoc: "Engin - McDonalds", taskDesc: "Purchase a burger with no fillings. Take a photo of the house with it." }
 	  format.json  { render json: msg }
 	end
 	# @tasks = Task.all

@@ -1,0 +1,109 @@
+=> Booting WEBrick
+=> Rails 4.2.0 application starting in development on http://128.199.150.201:8080
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 137.132.228.31 at 2015-03-05 21:16:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PointsController#index as HTML
+Redirected to http://vpatro.me:8080/houses/sign_in
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/houses/sign_in" for 137.132.228.31 at 2015-03-05 21:16:11 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (17.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (89.5ms)
+Completed 200 OK in 481ms (Views: 447.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/house-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/houses-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/points-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/scaffolds-081ace791a430edea0b6f8609d87cdf2.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/tasks-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/application-6a6c918b3e76fb00d526b9032caed5ac.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/house-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/houses-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/points-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/tasks-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/assets/application-065959174ad48d43202782cc4ff66fc6.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:12 -0500
+
+
+Started GET "/houses/sign_in" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (23.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (53.4ms)
+Completed 200 OK in 547ms (Views: 539.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/house-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/points-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/scaffolds-081ace791a430edea0b6f8609d87cdf2.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/tasks-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/application-6a6c918b3e76fb00d526b9032caed5ac.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/houses-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/points-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/houses-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:32 -0500
+
+
+Started GET "/assets/tasks-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:33 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:33 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:33 -0500
+
+
+Started GET "/assets/house-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:33 -0500
+
+
+Started GET "/assets/application-065959174ad48d43202782cc4ff66fc6.js?body=1" for 137.132.228.31 at 2015-03-05 21:16:33 -0500

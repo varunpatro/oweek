@@ -72,6 +72,7 @@ class TasksController < ApplicationController
 	  else 
 	  	msg = { taskLoc: "Invalid QR Code", taskDesc: "Please try again" }
 	  end
+#msg = params
 	  format.json  { render json: msg }
 	end
 	# @tasks = Task.all
